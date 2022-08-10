@@ -1,0 +1,22 @@
+@media (max-width: 1200px) {
+    .header__content-bg {
+        width: 100%;
+    }
+
+    .main__offer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .main__services-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .main__course-items {
+        justify-content: center;
+    }
+    .main__cards {
+        justify-content: space-around;
+    }
+}
