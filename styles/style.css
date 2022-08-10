@@ -352,5 +352,133 @@ body {
     text-align: center;
     margin: 30px auto 0 auto;
 }
+.main__mobapp .main__title{
+    text-align: center;
+    margin-bottom: 30px; 
+}
 
+.main__div-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__green-left{
+width: 642px;
+height: 487px;
+left: 63px;
+top: 2150px;
+background: #97EAB9;
+box-shadow: 0px 40px 30px -25px rgba(151, 234, 185, 0.4);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 25px;
+}
+
+.h22{
+    margin-bottom: 25px;
+}
+
+.main__right-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__right-bg:first-child{
+width: 642px;
+height: 216px;
+left: 735px;
+top: 2150px;
+
+background: #FFC1BD;
+box-shadow: 0px 25px 30px -20px rgba(255, 193, 189, 0.5);
+border-radius: 10px;
+}
+
+.main__right-bg:last-child{
+width: 642px;
+height: 228.5px;
+left: 735px;
+top: 2408px;
+
+background: #C1B7FF;
+box-shadow: 0px 25px 30px -25px rgba(193, 183, 255, 0.4);
+border-radius: 10px;
+}
+
+.main__twoblocks-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__div-content{
+    margin-bottom: 32px;
+}
+
+.main__googleapp-link{
+    width: 360px;
+    height: 100px;
+    padding: 27px 85px;
+    
+    }
+    
+.main__appstore-link{
+    width: 360px;
+    height: 100px;
+    padding: 26px 106px;
+    margin-left: 30px;
+}
+
+.main__app-btn{
+    text-align: center;
+   /*  column-gap: 30px; */
+}
+
+.h2-1{
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+
+/* MAIN END */
+
+
+/* FOOTER START */
+.footer__nav{
+    text-align: center;
+}
+
+.footer__nav-spans{
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.footer__nav-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fns1{
+font-family: 'Mont-medium';
+font-size: 20px;
+line-height: 24px;
+color: #B49081;
+margin-bottom: 2px;
+}
+
+.fns2{
+font-family: 'Mont-black';
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.75em;
+color: #563529;
+
+} 
+
+/* FOOTER END */
 /* MAIN END */
